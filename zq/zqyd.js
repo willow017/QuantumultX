@@ -1,3 +1,12 @@
+/*
+name:中青看点阅读
+author:willow
+time: 25/2/2022
+github: https://github.com/willow017/QuantumultX
+instruction: [task_local]
+             0,20,40 12-21 * * * zqyd.js, tag=中青看点阅读, enabled=true
+*/
+
 const url = 'https://kandian.wkandian.com/v5/article/complete.json';
 const ydbodys = $prefs.valueForKey('youth_autoread')
 const body = ydbodys.split('&');
