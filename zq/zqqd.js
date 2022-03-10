@@ -23,3 +23,4 @@ $task.fetch(myRequest).then(response => {
     $done();
 }, reason => {
     console.log(reason.error);
+};
