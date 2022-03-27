@@ -32,18 +32,18 @@ function Getbody() {
         };
         if (flspBody) {
             if (flspBody.indexOf(bodyVal) > -1) {
-                console.log("此阅读请求已存在，本次跳过")
+                console.log("此福利视频请求已存在，本次跳过")
             } else if (flspBody.indexOf(bodyVal) == -1) {
                 flspBodys = flspBody + "&" + bodyVal;
                 $prefs.setValueForKey(flspBodys, 'flsp_auto');
-                console.log(`中青看点获取阅读: 成功, flspBodys: ${bodyVal}`);
+                console.log(`中青看点福利视频: 成功, flspBodys: ${bodyVal}`);
                 bodys = flspBodys.split("&")
-                $notify(title, "获取第" + bodys.length + "个阅读请求: 成功🎉", ``)
+                $notify(title, "获取第" + bodys.length + "个福利视频请求: 成功🎉", ``)
             }
         } else {
             $prefs.setValueForKey(bodyVal, 'flsp_auto');
-            console.log(`中青看点获取阅读: 成功, flspBodys: ${bodyVal}`);
-            $notify(title, `获取第一个阅读请求: 成功🎉`, ``)
+            console.log(`中青看点福利视频: 成功, flspBodys: ${bodyVal}`);
+            $notify(title, `获取第一个福利视频请求: 成功🎉`, ``)
         }
     }
 }
