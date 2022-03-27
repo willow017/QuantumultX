@@ -7,6 +7,7 @@ instruction: [mitm]
              hostname = kandian.wkandian.com
              [rewrite_local]
              ^https://kandian\.wkandian\.com/v5/article/complete\.json url script-request-body https://raw.githubusercontent.com/willow017/QuantumultX/main/zq/zqyd_cookie.js
+             ^https://kandian\.wkandian\.com/V17/NewTaskIos/recordNum\.json url script-request-body https://raw.githubusercontent.com/willow017/QuantumultX/main/zq/zqyd_cookie.js
 
 */
 let YouthBody = $prefs.valueForKey('youth_autoread');
