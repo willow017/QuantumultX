@@ -33,14 +33,14 @@ function flsp(i) {
     $task.fetch(myrequest).then(response => {
         //data = response.body.results[0].location.name ;
         title = '中青看点';
-        ftitle = '阅读';
+        flsp = '福利视频';
         console.log(response.body)
         $notify(title,flsp,`阅读成功🥂`);
         console.log(`阅读成功`)      
         $.done();
         }, reason => {
         title = '中青看点';
-        ftitle = '阅读';
+        flsp = '福利视频';
         console.log('失败');
         $notify(title,flsp,`第${i}次阅读失败🥂`);
         $.done();
