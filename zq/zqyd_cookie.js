@@ -13,6 +13,7 @@ let YouthBody = $prefs.valueForKey('youth_autoread');
 let flspBody = $prefs.valueForKey('flsp_auto');
 const title = '中青看点';
 const ftitle = '阅读body';
+const flsp = '福利视频';
 
 
 //获取阅读body
