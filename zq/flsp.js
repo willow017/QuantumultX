@@ -1,5 +1,5 @@
 /*
-name:中青看点阅读
+name:中青看点福利视频
 author:willow
 time: 25/2/2022
 github: https://github.com/willow017/QuantumultX
