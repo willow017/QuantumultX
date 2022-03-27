@@ -4,7 +4,7 @@ author:willow
 time: 25/2/2022
 github: https://github.com/willow017/QuantumultX
 instruction: [task_local]
-             0 10-18/2 * * * https://raw.githubusercontent.com/willow017/QuantumultX/main/zq/flsp.js, tag=中青看点阅读, enabled=true
+             0 10-18/2 * * * https://raw.githubusercontent.com/willow017/QuantumultX/main/zq/flsp.js, tag=中青看点福利视频, enabled=true
 */
 
 const url = 'https://kandian.wkandian.com/V17/NewTaskIos/recordNum.json';
