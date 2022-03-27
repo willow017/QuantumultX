@@ -21,7 +21,7 @@ const flsp = '福利视频';
 if (isGetbody = typeof $request !==`undefined`) {
   Getbody();
   flspbody();
-   $done({})
+  $done({});
 } 
 
 
