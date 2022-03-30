@@ -8,8 +8,8 @@ instruction: [task_local]
 */
 
 const url = 'https://kandian.wkandian.com/v5/user/stay.json';
-const flspbodys = $prefs.valueForKey('flsp_auto')
-const body = flspbodys.split('&');
+const ydscbodys = $prefs.valueForKey('ydsc_auto')
+const body = ydscbodys.split('&');
 const i = Math.round(Math.random()*body.length)
 
 ydsc(i);
