@@ -24,7 +24,7 @@ function ydsc(i) {
                 'Accept-Encoding': 'gzip, deflate, br',
                 'Accept-Language': 'zh-Hans-CN;q=1',
                 'Connection': 'keep-alive',
-                'Content-Length: 871',
+                'Content-Length': '871',
                 'Content-Type': 'application/x-www-form-urlencoded',
                 'Host': 'kandian.wkandian.com',
                 'User-Agent': 'KDApp/2.6.2 (iPad; iOS 15.3.1; Scale/2.00)'},
